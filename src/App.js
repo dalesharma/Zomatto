@@ -9,7 +9,7 @@ import Products from './Products';
 
 
 const App = (e) => {
-  const [search, setSearch] = useState('food search');
+  const [search, setSearch] = useState('');
   const [data, setData] = useState([]);
   const YOUR_APP_ID = "0a85443e";
   const YOUR_APP_KEY = "c4e443682f7e4347755ee87e57f90e70";
